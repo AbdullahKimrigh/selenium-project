@@ -5,6 +5,7 @@ phases:
     on-failure: ABORT
     runtime-versions:
       java: corretto11
+      java: openjdk8
     commands:
     - sh install_driver.sh
   pre_build:
