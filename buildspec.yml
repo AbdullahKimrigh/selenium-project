@@ -19,7 +19,7 @@ phases:
     commands:
     - echo Build start on 'date'
     - mvn compile
-    - mvn test config\config.properties
+    - mvn test
     - echo Build ends on 'date'
   post_build:
     on-failure: ABORT
