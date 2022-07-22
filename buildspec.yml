@@ -19,7 +19,7 @@ phases:
     commands:
     - echo Build start on 'date'
     - mvn compile
-    - mvn test
+    - mvn test 'http://javawebapp-env.eba-vrb4buq7.us-east-1.elasticbeanstalk.com/'
     - echo Build ends on 'date'
   post_build:
     on-failure: ABORT
